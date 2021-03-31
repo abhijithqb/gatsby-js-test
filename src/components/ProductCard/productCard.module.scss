@@ -1,0 +1,212 @@
+.cardWrapper {
+  width: 276px;
+  height: 594px;
+  margin-bottom: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  background: #fff;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 24%);
+  border-radius: 4px;
+  color: rgba(0,0,0,.6);
+
+  a {
+    color: rgba(0,0,0,.87);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: .15px;
+  }
+}
+
+.carousel {
+  width: 224px;
+  margin: 0 auto; 
+}
+
+.cardTitle {
+  height: 79px;
+  display: flex;
+  align-items: center;
+  padding-top: 9px;
+  padding-left: 28px;
+  line-height: 1.25;
+}
+
+.purchasePrices {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: .25px;
+  color: rgba(0,0,0,.6);
+}
+
+.allPrices {
+  min-height: 48.8px;
+  display: flex;
+  justify-content: space-between;
+  width: 223px;
+  color: #4c6583;
+  border-left: 2px solid #ddd;
+  border-right: 2px solid #ddd;
+  margin: 10px auto 0 auto;
+}
+
+.scPrice {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 78px;
+  color: rgba(0,0,0,.87);
+
+  &:nth-child(2) {
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+  }
+}
+
+.value {
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.carousel {
+  text-align: center;
+  div > div > div {
+    height: 142px;
+  }
+}
+
+.bigAmount {
+  width: 223px;
+  display: flex;
+  margin: 12px auto 0 auto;
+  justify-content: space-between;
+
+  span {
+    font-size: .92rem;
+    padding-top: 5px;
+  }
+}
+
+.inquireBtn {
+  border: 1px solid #f0a60e;
+  border-radius: .25rem;
+  width: 112px;
+  text-align: center;
+  padding: 10px;
+  color: #4c6583;
+  font-weight: 600;
+
+  a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #f0a60e;
+  }
+}
+
+.priceCalculationGroup {
+  width: 223px;
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardCalculation {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(0,0,0,.87);
+  max-width: 151px;
+  overflow: hidden;
+}
+
+.groupInputButtons {
+  display: flex;
+  flex-direction: column;
+  width: 223px;
+  margin: 5px auto 0;
+  position: relative;
+}
+
+.inputProductCard {
+  border: 1px solid rgba(0,0,0,.38);
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 39px;
+  font-size: 1.15rem;
+  padding-left: 18px;
+  width: 100%;
+  color: #9ba3ad;
+  margin-top: 10px;
+}
+
+.greyProductButton {
+  margin-top: 12px;
+
+  a {
+    display: block;
+    text-align: center;
+    height: 36px;
+    background: rgba(0,0,0,.12);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: default;
+    text-transform: uppercase;
+    color: rgba(0,0,0,.38);
+    padding-top: 10px;
+  }
+}
+
+.enabledProductButton {
+  margin-top: 12px;
+  a {
+    display: block;
+    text-align: center;
+    height: 36px;
+    padding-top: 10px;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    background-color: #f0a60e;
+    cursor: pointer;
+    color: #fff;
+  }
+}
+
+.transparentProductButton {
+  margin-top: 12px;
+
+  a {
+    border: 1px solid rgba(0,0,0,.38);
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 2px;
+    display: block;
+    text-align: center;
+    height: 36px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: rgba(0,0,0,.6);
+    padding-top: 10px;
+  }
+}

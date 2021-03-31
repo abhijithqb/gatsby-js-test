@@ -1,0 +1,33 @@
+.description {
+  padding-top: 70px;
+  margin-left: -50px;
+}
+
+.howDoesItWorks {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: rgba(0,0,0,.6);
+}
+
+.orangeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    background-color: #f0a60e;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.36rem;
+    border-radius: .35rem;
+    border: 1px solid transparent;
+    padding: .85rem 0;
+    width: 316px;
+  }
+}

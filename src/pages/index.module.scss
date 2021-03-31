@@ -1,0 +1,31 @@
+.app {
+  background: "#f1f1f3";
+  padding-top: 96px;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stepContainer {
+  max-width: 1140px;
+  padding: 96px 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  h2 {
+    width: 710px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    color: rgba(0,0,0,.87);
+    margin-top: 17px;
+    margin-bottom: 44px;
+  }
+}
