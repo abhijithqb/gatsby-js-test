@@ -1,14 +1,14 @@
 <h1 align="center">
-  Schrott24 minimal starter
+  gatsby-js-test minimal starter
 </h1>
 
 ## 🚀 Quick start
 
 1.  **Install dependencies**
 
-    Navigate into schrott24 directory and install dependencies
+    Navigate into gatsby-js-test directory and install dependencies
     ```shell
-    cd schrott24
+    cd gatsby-js-test
     npm install
     ```
 
